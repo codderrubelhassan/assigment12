@@ -1,0 +1,38 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+.main-menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+   
+}
+.main-menu ul li a{
+color: rgba(181, 172, 53, 0.756);
+text-decoration: none;
+font-size: 20px;
+padding: 50px 0px;
+display: block;
+
+}
+.main-menu ul li ul.submenu{
+    position: absolute;
+    width: 200px;
+    top: 110px;
+    left: 0px;
+    background-color: black;
+    border: 5px solid green;
+   transition: all linear.3s;
+   visibility: hidden;
+}
+.main-menu ul li:hover ul.submenu{
+    opacity: 1;
+    visibility: visible;
+
+}
+.banar{
+    background-image: url(./young-mens.jpg);
+    background-position: top center;
+    background-size: cover;
+}
